@@ -6,8 +6,8 @@ RSpec.feature 'Creating Articles' do
 
     click_link "New Article"
 
-    fill_in "Title", with: "Creating a blog"
-    fill_in "Body", with: "Lorem ipsum"
+    fill_in "article_title", with: "Creating a blog"
+    fill_in "article_body", with: "Lorem ipsum"
 
     click_button "Create Article"
 
