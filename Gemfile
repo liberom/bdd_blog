@@ -37,6 +37,9 @@ group :development, :test do
 end
 
 group :development do
+  gem 'guard', '~> 2.14.0'
+  gem 'guard-rspec', '~> 4.7.2'
+  gem 'guard-cucumber', '~> 2.1.2'
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '~> 3.2'
